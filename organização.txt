@@ -1,0 +1,18 @@
+│── /public                     # Arquivos públicos (favicon, index.html, imagens)
+│── /src                        # Código-fonte do projeto
+│   ├── /components             # Componentes reutilizáveis
+│   │   ├── InstrumentCard.tsx
+│   │   ├── Navbar.tsx
+│   ├── /pages                  # Páginas principais da aplicação
+│   │   ├── Home.tsx
+│   │   ├── Inventory.tsx
+│   ├── /services               # Comunicação com API fake
+│   │   ├── inventoryService.ts
+│   ├── /types                  # Tipagens globais
+│   │   ├── instrument.ts
+│   ├── App.tsx                 # Componente principal
+│   ├── main.tsx                # Ponto de entrada
+│   ├── tailwind.config.ts      # Configuração do TailwindCSS
+│── package.json                # Dependências
+│── tsconfig.json               # Configuração do TypeScript
+│── README.md                   # Documentação
